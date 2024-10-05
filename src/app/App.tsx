@@ -12,7 +12,7 @@ function App() {
 
   const { data } = useGetMoviesByNameQuery('avengers')
 
-  console.log(data?.docs[0])
+  console.log(data)
 
   return (
     <>
